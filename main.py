@@ -191,6 +191,7 @@ print(bool(False))  # If statement itself is given false.
 print(bool(None))   # If statement has None.
 print(bool(0))      # If entered 0.
 print(bool(""))     # If entered empty string.
+print(bool(''))     # If entered empty string.     
 print(bool())       # If entered empty tuple.
 print(bool([]))     # If enetred empty list.
 print(bool({}))     # If entered empty set.
@@ -593,5 +594,5 @@ def function_add_return(c, d):
     return(e)
 var = function_add_return(5, 4) * 2 
 print(var)
-# Now Your Basics of Python Programming is completed, now go and open advanced_py.py.
+# Now Your Basics of Python Programming is completed, now go and open intermediate_py.py.
 # The End.
